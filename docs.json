@@ -1,0 +1,133 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "RendererStack Documentation",
+  "colors": {
+    "primary": "#3B82F6",
+    "light": "#60A5FA",
+    "dark": "#2563EB"
+  },
+  "favicon": "/favicon.svg",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "RendererStack",
+        "groups": [
+          {
+            "group": "Overview",
+            "pages": [
+              "rendererstack/overview",
+              "rendererstack/tools/overview",
+              {
+                "group": "Get Started",
+                "pages": [
+                  "rendererstack/getting-started/terrain-object-renderer",
+                  "rendererstack/getting-started/sectorize"
+                ]
+              }
+            ]
+          },
+          {
+            "group": "Tools",
+            "pages": [
+              {
+                "group": "Terrain Object Renderer",
+                "pages": [
+                  "rendererstack/tools/terrain-object-renderer-features",
+                  "rendererstack/tools/terrain-object-renderer"
+                ]
+              },
+              {
+                "group": "Sectorize",
+                "pages": [
+                  "rendererstack/tools/sectorize",
+                  "rendererstack/getting-started/sectorize",
+                  "rendererstack/sectorize/settings/overview",
+                  "rendererstack/sectorize/settings/sectors",
+                  "rendererstack/sectorize/scene-manager-integration",
+                  {
+                    "group": "Streaming Rules",
+                    "pages": [
+                      "rendererstack/sectorize/settings/streaming-rules",
+                      "rendererstack/sectorize/streaming-rules/immediately-loading",
+                      "rendererstack/sectorize/streaming-rules/asynchronous-loading",
+                      "rendererstack/sectorize/streaming-rules/preventing-unloading",
+                      "rendererstack/sectorize/streaming-rules/caching"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "group": "Settings",
+            "pages": [
+              "rendererstack/settings/overview",
+              {
+                "group": "Global Settings",
+                "pages": [
+                  "rendererstack/global-settings/quality",
+                  "rendererstack/global-settings/extension",
+                  "rendererstack/global-settings/gameobject-converter",
+                  "rendererstack/global-settings/unity-terrain-tree-converter",
+                  "rendererstack/global-settings/snap-to-object"
+                ]
+              },
+              {
+                "group": "Scene Settings",
+                "pages": [
+                  "rendererstack/scene-settings/cameras",
+                  "rendererstack/scene-settings/additional-data"
+                ]
+              },
+              {
+                "group": "Prototype Settings",
+                "pages": [
+                  "rendererstack/prototype-settings/prototypes",
+                  "rendererstack/prototype-settings/lod-group",
+                  "rendererstack/prototype-settings/shadow",
+                  "rendererstack/prototype-settings/distance-culling",
+                  "rendererstack/prototype-settings/frustum-culling-settings",
+                  "rendererstack/prototype-settings/colliders",
+                  "rendererstack/prototype-settings/scripting"
+                ]
+              }
+            ]
+          },
+          {
+            "group": "Preferences",
+            "pages": [
+              "rendererstack/preferences/rendererstack-preferences"
+            ]
+          }
+        ]
+      }
+    ],
+    "global": {}
+  },
+  "logo": {
+    "light": "/logo/logo.png",
+    "dark": "/logo/logo.png"
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "Discord",
+        "href": "https://discord.gg/fVAmyXs8GH"
+      }
+    ]
+  },
+  "contextual": {
+    "options": [
+      "copy",
+      "view",
+      "chatgpt",
+      "claude",
+      "perplexity",
+      "mcp",
+      "cursor",
+      "vscode"
+    ]
+  },
+  "footer": {}
+}

@@ -1,0 +1,26 @@
+---
+title: "RendererStack"
+description: "A modular renderer stack for optimized terrain-level rendering workflows."
+---
+
+RendererStack is a modular rendering system for large outdoor scenes. It is built around specialized renderers that handle level rendering, terrain object rendering, and terrain streaming.
+
+The current documented tools are **Terrain Object Renderer** and **Sectorize**.
+
+<CardGroup cols={2}>
+  <Card title="Tools overview" icon="wrench" href="/rendererstack/tools/overview">
+    Browse the current RendererStack tools and planned renderer workflows.
+  </Card>
+  <Card title="Terrain Object Renderer" icon="trees" href="/rendererstack/tools/terrain-object-renderer">
+    Render large terrain objects such as trees, bushes, and rocks with GPU Instanced Indirect.
+  </Card>
+  <Card title="Sectorize" icon="map" href="/rendererstack/tools/sectorize">
+    Stream terrain sectors around active cameras with additive scene loading.
+  </Card>
+</CardGroup>
+
+## Renderers
+
+- **Terrain Object Renderer** — renders large terrain objects such as trees, bushes, and rocks.
+- **Sectorize** — streams terrain sectors with additive scenes.
+- **Detail Object Renderer** — in development.
